@@ -146,6 +146,7 @@
   selected: false
   packages:
     - audacious
+    - audacity
     - celluloid
     - clementine
     - deadbeef

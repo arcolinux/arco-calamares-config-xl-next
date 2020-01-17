@@ -67,7 +67,7 @@
   packages:
     - amd-ucode
 - name: "Accessories"
-  description: "Accessories,..."
+  description: "Accessories"
   critical: false
   hidden: false
   selected: false

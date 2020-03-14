@@ -112,6 +112,14 @@
     - smplayer
     - spotify
     - spotifywm-git
+- name: "Privacy"
+  description: "Applications that ensure your privacy"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - tor
+    - privoxy
 - name: "Themes"
   description: "Themes"
   critical: false

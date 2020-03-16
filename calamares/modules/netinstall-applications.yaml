@@ -118,6 +118,7 @@
   hidden: false
   selected: false
   packages:
+    - tor-browser
     - tor
     - privoxy
 - name: "Themes"

@@ -98,7 +98,6 @@
   packages:
     - brave
     - deluge
-    - discord
     - dropbox
     - falkon
     - filezilla
@@ -112,7 +111,6 @@
     - opera
     - pidgin
     - qbittorrent
-    - telegram-desktop
     - thunderbird
     - transmission-gtk
     - whatsapp-nativefier
@@ -244,6 +242,7 @@
     - powertop
     - putty
     - screenfetch
+    - synapse    
     - systemd-manager
     - teamviewer
 - name: "Virtualbox for Linux kernel"

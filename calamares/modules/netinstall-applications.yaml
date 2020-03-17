@@ -5,6 +5,23 @@
   selected: false
   packages:
     - flameshot
+- name: "Calligra"
+  description: "Office Suite"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - calligra
+    - calligra-plan
+- name: "Communication"
+  description: "Communication"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - skypeforlinux-stable-bin
+    - teams
+    - zoom
 - name: "Development"
   description: "Development"
   critical: false
@@ -13,6 +30,21 @@
   packages:
     - code
     - kdevelop
+    - visual-studio-code-bin
+- name: "File Manager"
+  description: "Filemanager"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - caja
+    - dolphin
+    - mc
+    - nautilus
+    - nemo
+    - nemo-fileroller
+    - pcmanfm
+    - ranger
 - name: "Fonts"
   description: "Fonts"
   critical: false
@@ -28,6 +60,16 @@
   packages:
     - arcolinux-meta-steam
     - lutris
+    - minecraft-launcher
+- name: "Github"
+  description: "Github"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gitahead-bin
+    - gitfiend
+    - gitkraken
 - name: "Graphics"
   description: "Graphics"
   critical: false
@@ -60,6 +102,7 @@
     - filezilla
     - firefox-i18n-$LOCALE
     - geary
+    - google-chrome
     - hexchat
     - insync
     - ktorrent
@@ -69,6 +112,7 @@
     - telegram-desktop
     - thunderbird
     - transmission-gtk
+    - whatsapp-nativefier
 - name: "Libre Office Fresh"
   description: "Installs libre office fresh - feature branch - conflicts with still"
   critical: false
@@ -112,6 +156,13 @@
     - smplayer
     - spotify
     - spotifywm-git
+- name: "Onlyoffice"
+  description: "Onlyoffice"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - onlyoffice-bin
 - name: "Privacy"
   description: "Applications that ensure your privacy"
   critical: false
@@ -137,18 +188,28 @@
     - papirus-icon-theme
     - surfn-arc-breeze-icons-git
     - xcursor-simpleandsoft
+- name: "Usb Utilities"
+  description: "Usb utilities"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - etcher-bin
+    - imagewriter
 - name: "Utilities"
   description: "Utilities"
   critical: false
   hidden: false
   selected: false
   packages:
-    - gitahead-bin
-    - gitfiend
+    - archey3
     - glances
     - gtop
+    - open-vm-tools
+    - optimus-manager
     - powertop
     - systemd-manager
+    - teamviewer
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"
   critical: false
@@ -168,6 +229,13 @@
     - virtualbox-host-dkms
     - linux-lts-headers
     - linux-lts
+- name: "Windows"
+  description: "Windows"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - woeusb
 - name: "WPS Office"
   description: "Installs wps office"
   critical: false

@@ -232,6 +232,7 @@
   hidden: false
   selected: false
   packages:
+    - albert
     - archey3
     - bleachbit
     - caffeine-ng
@@ -242,7 +243,7 @@
     - powertop
     - putty
     - screenfetch
-    - synapse    
+    - synapse
     - systemd-manager
     - teamviewer
 - name: "Virtualbox for Linux kernel"

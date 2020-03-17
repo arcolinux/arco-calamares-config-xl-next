@@ -19,8 +19,10 @@
   hidden: false
   selected: false
   packages:
+    - discord
     - skypeforlinux-stable-bin
     - teams
+    - telegram-desktop
     - zoom
 - name: "Development"
   description: "Development"
@@ -163,6 +165,15 @@
   selected: false
   packages:
     - onlyoffice-bin
+- name: "Password Manager"
+  description: "Password manager"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - keepassxc
+    - lastpass
+    - bitwarden-bin
 - name: "Privacy"
   description: "Applications that ensure your privacy"
   critical: false
@@ -221,6 +232,7 @@
   selected: false
   packages:
     - archey3
+    - bleachbit
     - caffeine-ng
     - glances
     - gtop
@@ -228,6 +240,8 @@
     - optimus-manager
     - powertop
     - putty
+    - screenfetch
+    - stacer-bin
     - systemd-manager
     - teamviewer
 - name: "Virtualbox for Linux kernel"
@@ -275,3 +289,4 @@
     - zsh-completions
     - zsh-syntax-highlighting
     - oh-my-zsh-git
+    - arcolinux-zsh-git

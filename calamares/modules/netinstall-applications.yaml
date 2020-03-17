@@ -220,8 +220,8 @@
     - surfn-arc-breeze-icons-git
     - xcursor-breeze
     - xcursor-simpleandsoft
-- name: "Usb Utilities"
-  description: "Usb utilities"
+- name: "Usb"
+  description: "Usb"
   critical: false
   hidden: false
   selected: false

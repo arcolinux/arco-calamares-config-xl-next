@@ -103,6 +103,7 @@
     - falkon
     - filezilla
     - firefox-i18n-$LOCALE
+    - firefox-adblock-plus
     - geary
     - google-chrome
     - hexchat
@@ -210,12 +211,14 @@
     - adapta-gtk-theme
     - arc-icon-theme
     - arcolinux-arc-kde
+    - breeze
     - faba-icon-theme
     - moka-icon-theme
     - oxy-neon
     - paper-icon-theme
     - papirus-icon-theme
     - surfn-arc-breeze-icons-git
+    - xcursor-breeze
     - xcursor-simpleandsoft
 - name: "Usb Utilities"
   description: "Usb utilities"
@@ -241,7 +244,6 @@
     - powertop
     - putty
     - screenfetch
-    - stacer-bin
     - systemd-manager
     - teamviewer
 - name: "Virtualbox for Linux kernel"

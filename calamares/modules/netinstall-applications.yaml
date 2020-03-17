@@ -172,6 +172,24 @@
     - tor-browser
     - tor
     - privoxy
+- name: "Terminals"
+  description: "Terminals"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - alacritty
+    - gnome-terminal
+    - guake
+    - kitty
+    - konsole
+    - lxterminal
+    - sakura
+    - terminator
+    - termite
+    - tilix
+    - tilda
+    - tmux
 - name: "Themes"
   description: "Themes"
   critical: false
@@ -203,11 +221,13 @@
   selected: false
   packages:
     - archey3
+    - caffeine-ng
     - glances
     - gtop
     - open-vm-tools
     - optimus-manager
     - powertop
+    - putty
     - systemd-manager
     - teamviewer
 - name: "Virtualbox for Linux kernel"
@@ -245,3 +265,13 @@
     - wps-office
     - wps-office-mime
     - ttf-wps-fonts
+- name: "Zsh"
+  description: "Zsh"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - zsh
+    - zsh-completions
+    - zsh-syntax-highlighting
+    - oh-my-zsh-git

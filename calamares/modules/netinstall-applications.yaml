@@ -251,7 +251,7 @@
     - screenfetch
     - synapse
     - systemd-manager
-    - teamviewer
+    - arcolinux-teamviewer
     - wireshark-qt
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"

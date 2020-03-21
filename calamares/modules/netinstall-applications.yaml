@@ -20,9 +20,13 @@
   selected: false
   packages:
     - discord
+    - qtox
+    - riot-desktop
     - skypeforlinux-stable-bin
     - teams
     - telegram-desktop
+    - viber
+    - wire-desktop
     - zoom
 - name: "Development"
   description: "Development"
@@ -101,8 +105,8 @@
     - dropbox
     - falkon
     - filezilla
-    - firefox-i18n-$LOCALE
     - firefox-adblock-plus
+    - firefox-i18n-$LOCALE
     - geary
     - google-chrome
     - hexchat
@@ -241,12 +245,14 @@
     - gtop
     - open-vm-tools
     - optimus-manager
+    - octopi
     - powertop
     - putty
     - screenfetch
     - synapse
     - systemd-manager
     - teamviewer
+    - wireshark-qt
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"
   critical: false

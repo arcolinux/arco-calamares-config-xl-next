@@ -239,6 +239,7 @@
   packages:
     - albert
     - archey3
+    - arcolinux-teamviewer
     - bleachbit
     - caffeine-ng
     - glances
@@ -251,7 +252,6 @@
     - screenfetch
     - synapse
     - systemd-manager
-    - arcolinux-teamviewer
     - wireshark-qt
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"

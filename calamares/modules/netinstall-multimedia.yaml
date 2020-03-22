@@ -13,10 +13,12 @@
     - deadbeef
     - elisa
     - handbrake
+    - juk
     - kdenlive
     - kodi
     - kodi-addons
     - lollypop
+    - lxmusic
     - lmms
     - obs-studio
     - openshot
@@ -26,6 +28,7 @@
     - ncmpcpp
     - plex-media-player
     - plex-media-server
+    - radiotray
     - rhythmbox
     - soundconverter
     - smplayer

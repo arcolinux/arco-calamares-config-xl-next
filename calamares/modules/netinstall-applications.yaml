@@ -4,7 +4,12 @@
   hidden: false
   selected: false
   packages:
+    - cheese
     - flameshot
+    - liferea
+    - mediainfo
+    - mcomix
+    - pdfarranger
 - name: "File Manager"
   description: "Filemanager"
   critical: false
@@ -42,6 +47,7 @@
   selected: false
   packages:
     - gitahead-bin
+    - gitg
     - gitfiend
     - gitkraken
 - name: "Graphics"

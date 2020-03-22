@@ -1,0 +1,21 @@
+- name: "Games"
+  description: "Games"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-meta-steam
+    - armagetronad
+    - astromenace
+    - chromium-bsu
+    - extremetuxracer
+    - hedgewars
+    - kbreakout
+    - lutris
+    - minecraft-launcher
+    - neverball
+    - playonlinux
+    - sauerbraten
+    - sauerbraten-data
+    - xonotic
+    - xonotic-data

@@ -9,17 +9,20 @@
     - archey3
     - baobab
     - bleachbit
-    - caffeine-ng
+    - caffeine
     - glances
     - google-earth-pro
     - grsync
+    - kbackup
     - open-vm-tools
     - optimus-manager
     - octopi
     - powertop
     - putty
+    - sigil
     - screenfetch
     - synapse
+    - sysprof
     - systemd-manager
     - vnstat
     - wireshark-qt

@@ -5,6 +5,13 @@
   selected: false
   packages:
     - abiword
+- name: "Calibre"
+  description: "Calibre"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - calibre    
 - name: "Calligra"
   description: "Office Suite"
   critical: false
@@ -27,6 +34,13 @@
   selected: false
   packages:
     - ghostwriter
+- name: "Gnumeric"
+  description: "Gnumeric"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gnumeric    
 - name: "Libre Office Fresh"
   description: "Installs libre office fresh - feature branch - conflicts with still"
   critical: false

@@ -7,6 +7,7 @@
   packages:
     - arcolinux-teamviewer
     - discord
+    - krdc
     - qtox
     - remmina
     - riot-desktop
@@ -14,6 +15,7 @@
     - slack-desktop
     - teams
     - telegram-desktop
+    - tigervnc
     - viber
     - wire-desktop
     - zoom

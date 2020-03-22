@@ -31,15 +31,6 @@
   selected: false
   packages:
     - terminus-font
-- name: "Games"
-  description: "Games"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-meta-steam
-    - lutris
-    - minecraft-launcher
 - name: "Git"
   description: "Git"
   critical: false

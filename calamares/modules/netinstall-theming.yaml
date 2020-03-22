@@ -1,0 +1,19 @@
+- name: "Theming"
+  description: "Theming"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - adapta-gtk-theme
+    - arc-icon-theme
+    - arcolinux-arc-kde
+    - breeze
+    - faba-icon-theme
+    - moka-icon-theme
+    - oxy-neon
+    - paper-icon-theme
+    - papirus-icon-theme
+    - surfn-arc-breeze-icons-git
+    - xcursor-breeze
+    - xcursor-simpleandsoft

@@ -1,0 +1,10 @@
+- name: "ArcoLinux Dev"
+  description: "Development software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - flameshot
+    - telegram-desktop
+    - discord

@@ -1,0 +1,19 @@
+- name: "Communication"
+  description: "Communication"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-teamviewer
+    - discord
+    - qtox
+    - remmina
+    - riot-desktop
+    - skypeforlinux-stable-bin
+    - slack-desktop
+    - teams
+    - telegram-desktop
+    - viber
+    - wire-desktop
+    - zoom

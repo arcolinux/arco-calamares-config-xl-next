@@ -1,0 +1,25 @@
+- name: "Utilities"
+  description: "Utilities"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - albert
+    - archey3
+    - baobab
+    - bleachbit
+    - caffeine-ng
+    - glances
+    - google-earth-pro
+    - grsync
+    - open-vm-tools
+    - optimus-manager
+    - octopi
+    - powertop
+    - putty
+    - screenfetch
+    - synapse
+    - systemd-manager
+    - vnstat
+    - wireshark-qt

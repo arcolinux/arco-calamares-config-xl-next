@@ -1,0 +1,24 @@
+- name: "Internet"
+  description: "Internet"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - brave
+    - deluge
+    - dropbox
+    - falkon
+    - filezilla
+    - firefox-adblock-plus
+    - firefox-i18n-$LOCALE
+    - geary
+    - google-chrome
+    - hexchat
+    - insync
+    - ktorrent
+    - opera
+    - pidgin
+    - thunderbird
+    - transmission-gtk
+    - whatsapp-nativefier

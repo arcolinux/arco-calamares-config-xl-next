@@ -1,5 +1,5 @@
 - name: "Internet"
-  description: "Internet"
+  description: "Internet software"
   critical: false
   hidden: false
   selected: false

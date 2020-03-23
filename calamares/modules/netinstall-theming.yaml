@@ -1,5 +1,5 @@
 - name: "Theming"
-  description: "Theming"
+  description: "Themes, icons and cursors"
   critical: false
   hidden: false
   selected: false

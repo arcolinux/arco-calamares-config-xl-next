@@ -1,5 +1,5 @@
 - name: "Utilities"
-  description: "Utilities"
+  description: "Utility software"
   critical: false
   hidden: false
   selected: false

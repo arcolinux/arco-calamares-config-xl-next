@@ -1,5 +1,5 @@
 - name: "Multimedia"
-  description: "Multimedia"
+  description: "Audio and video software"
   critical: false
   hidden: false
   selected: false

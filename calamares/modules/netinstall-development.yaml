@@ -1,5 +1,5 @@
 - name: "Development"
-  description: "Development"
+  description: "Development software"
   critical: false
   hidden: false
   selected: false

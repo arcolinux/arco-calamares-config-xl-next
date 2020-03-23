@@ -1,5 +1,5 @@
 - name: "ArcoLinux Dev"
-  description: "Development software"
+  description: "Software for ArcoLinux developers and betatesters"
   critical: false
   hidden: false
   selected: false

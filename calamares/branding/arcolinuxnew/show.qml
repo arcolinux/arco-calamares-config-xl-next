@@ -31,7 +31,6 @@ Presentation
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-
         Image {
             id: background1
             source: "calamares-0.png"
@@ -48,7 +47,6 @@ Presentation
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-
         Image {
             id: background3
             source: "calamares-2.png"
@@ -64,13 +62,14 @@ Presentation
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-
         Image {
             id: background4
             source: "calamares-3.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
@@ -78,7 +77,6 @@ Presentation
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-
         Image {
             id: background5
             source: "calamares-4.png"
@@ -94,7 +92,6 @@ Presentation
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-
         Image {
             id: background6
             source: "calamares-5.png"
@@ -108,160 +105,199 @@ Presentation
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background7
             source: "calamares-6.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background8
             source: "calamares-7.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background9
             source: "calamares-8.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background10
             source: "calamares-9.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background11
             source: "calamares-10.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background12
             source: "calamares-11.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background13
             source: "calamares-12.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background14
             source: "calamares-13.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background30
             source: "calamares-29.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background31
             source: "calamares-30.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background32
             source: "calamares-31.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background33
             source: "calamares-32.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }
 
     Slide {
-
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
         Image {
             id: background34
             source: "calamares-33.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
         }
 
     }

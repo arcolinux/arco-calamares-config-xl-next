@@ -48,7 +48,7 @@ Presentation
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
         Image {
-            id: background3
+            id: background2
             source: "calamares-2.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
@@ -224,83 +224,6 @@ Presentation
 
     }
 
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background30
-            source: "calamares-29.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-
-    }
-
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background31
-            source: "calamares-30.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background32
-            source: "calamares-31.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-
-    }
-
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background33
-            source: "calamares-32.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background34
-            source: "calamares-33.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-
-    }
     function onActivate() {
           console.log("QML Component (default slideshow) activated");
           presentation.currentSlide = 0;

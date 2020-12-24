@@ -123,8 +123,8 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    ArcoLinux
-    version:             3.0
-    shortVersion:        3.0
+    version:             2.0
+    shortVersion:        2.0
     versionedName:       ArcoLinux
     shortVersionedName:  ArcoLinux
     bootloaderEntryName: ArcoLinux
@@ -162,11 +162,10 @@ strings:
 #
 # These filenames can also use substitutions from os-release (see above).
 images:
-    # productBanner:		"banner.png"
-    productLogo:			"squid.png"
-    productIcon:			"logo.png"
-    # productWallpaper:    "wallpaper.png"
-    productWelcome:			"calamares-0.png"
+    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productWelcome:      "calamares-0.png"
+
 
 # Colors for text and background components.
 #

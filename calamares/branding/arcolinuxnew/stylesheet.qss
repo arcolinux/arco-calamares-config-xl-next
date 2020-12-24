@@ -27,6 +27,7 @@ The examples are not exhaustive.
 /*
 
 arcolinux blue 		#6790eb
+blue slider				#3499D8
 calamares orange 	#D35400
 
 */
@@ -40,30 +41,29 @@ calamares orange 	#D35400
 }
 
 #sidebarApp {
+
 }
 
 #logoApp {
 }
 
 #sidebarMenuApp {
+	padding: 3px;
+	background-color: #353945;
 }
 
 QWidget {
 	font: 16px;
 }
 
-QListWidget::item:alternate {
-}
-
 QTextEdit, QListView {
 }
-
 QDialogButtonBox {
 }
-
 QAbstractSpinBox {
 }
-
+QListWidget::item:alternate {
+}
 
 #view-button-back:hover {
 	color: #D35400;
@@ -79,7 +79,6 @@ QAbstractSpinBox {
 	font: bold 8px;
 	color: #FFFFFF;
 }
-
 #debugButton:hover {
 	color: #D35400;
 }
@@ -87,67 +86,180 @@ QAbstractSpinBox {
 #aboutButton:hover {
 	color: #D35400;
 }
-
 #donateButton:hover {
 	color: #D35400;
 }
-
 #supportButton:hover {
 	color: #D35400;
 }
-
 #knownIssuesButton:hover {
 	color: #D35400;
 }
-
 #releaseNotesButton:hover {
 	color: #D35400;
 }
 
+/* ########## TOOLTIP ########## */
 
+QToolTip {
+	background-color: #D35400;
+  font : 16px;
+	color: white;
+	padding: 3px;
+	border: none;
+}
+
+QPushButton {
+    font : 16px;
+}
+
+QDialogButtonBox {
+	dialogbuttonbox-buttons-have-icons: 0;
+}
+
+/* ########## SCROLL BAR ########## */
+
+QScrollBar:vertical {
+     border: 1px solid #353945;
+     background: #353945;
+     width: 20px;
+     margin: 50px 0 24px 0;
+}
+
+QScrollBar::handle:vertical {
+     background: #D35400;
+     max-height: 25px;
+}
+
+QScrollBar::sub-line:vertical {
+     border: none;
+     background: none;
+     height: 20px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:vertical {
+     border: none;
+     background: none;
+     height: 20px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:vertical {
+     border: none;
+     width: 12px;
+     height: 8px;
+     background: none;
+     image: url(/usr/share/calamares/branding/endeavouros/img/up-arrow.png);
+}
+
+QScrollBar::down-arrow:vertical {
+     border: none;
+     width: 12px;
+     height: 8px;
+     background: none;
+     image: url(/usr/share/calamares/branding/endeavouros/img/branch_open.png);
+}
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+     background: none;
+}
 
 /* ########## LIST VIEW ########## */
 
 QListView {
+		font: 16px;
 }
 
 QListView::item:alternate {
-	color: #1B0B3C;
+	color: #D35400;
+	color: white;
 }
 
 QListView::item:!alternate:selected:active {
-	background: qlineargradient(x1: 0, y1: 1, x2: 1, y2: 1,
-        stop: 0 #1B0B3C, stop: 0.499 #1B0B3C,
-        stop: 0.50 white, stop: 1.0 white);
+	background: #D35400;
+	color: white;
 }
 
 QListView::item:selected:active {
-	background: #1B0B3C;
+	background: #D35400;
 	color: white;
 }
 
 QListView::item:selected:!active {
-	background: #1B0B3C;
+	background: #D35400;
 	color: white;
 }
 
 QListView::item:hover {
-	background: #1B0B3C;
+	background: #D35400;
 	color: white;
 }
 
 QListView#listLayout::item:!alternate:selected:active {
-	background: #1B0B3C;
+	background: #D35400;
+	color: white;
 }
 
 QListView#listVariant::item:!alternate:selected:active {
-	background: #1B0B3C;
+	background: #D35400;
+	color: white;
 }
 
 
 
 
+/* ########## SCROLL BAR ########## */
 
+QScrollBar:vertical {
+     border: 1px solid #353945;
+     background: #353945;
+     width: 20px;
+     margin: 50px 0 24px 0;
+}
+
+QScrollBar::handle:vertical {
+     background: #D35400;
+     max-height: 25px;
+}
+
+QScrollBar::sub-line:vertical {
+     border: none;
+     background: none;
+     height: 20px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:vertical {
+     border: none;
+     background: none;
+     height: 20px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:vertical {
+     border: none;
+     width: 12px;
+     height: 8px;
+     background: none;
+     image: url(/usr/share/calamares/branding/endeavouros/img/up-arrow.png);
+}
+
+QScrollBar::down-arrow:vertical {
+     border: none;
+     width: 12px;
+     height: 8px;
+     background: none;
+     image: url(/usr/share/calamares/branding/endeavouros/img/branch_open.png);
+}
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+     background: none;
+}
 
 
 
@@ -294,12 +406,15 @@ QLineEdit#textBoxUserPassword, QLineEdit#textBoxRootPassword {
 	font: 16px;
 }
 
-
-
 /* ########## COMBO BOX ########## */
 
 QComboBox {
 	font: 16px;
+}
+
+QComboBox::item:selected {
+	background: #D35400;
+	color: white;
 }
 
 #mountPointComboBox::drop-down {
@@ -312,10 +427,49 @@ QSpinBox {
 	font: 16px;
 }
 
+QLineEdit {
+	font: 16px;
+}
+
 /* ########## TREE VIEW ########## */
 
 QTreeView {
 	font: 16px;
+	show-decoration-selected: 0;
+}
+QTreeView::item {
+	padding: 2px;
+}
+QTreeView::item:default {
+	background: #00FF00;
+	font: bold;
+}
+QTreeView::item:selected {
+	background: #D35400;
+	font: bold;
+}
+QTreeView::branch:has-siblings:!adjoins-item {
+}
+QTreeView::branch:has-siblings:adjoins-item {
+}
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+}
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+}
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+}
+
+/* ########## CHECK BOX ########## */
+
+QCheckBox {
+}
+QCheckBox::indicator:unchecked {
+}
+QCheckBox::indicator:checked {
+}
+QItemSelectionModel::Select {
 }
 
 /* ########## HEADER VIEW ########## */
@@ -324,21 +478,15 @@ QHeaderView::section {
   font : 16px;
 }
 
-/* ########## TOOLTIP ########## */
 
-QToolTip {
-	 font : 16px;
-}
-QPushButton {
-    font : 16px;
-}
 
 
 /* ########## PROGRESS BAR ########## */
 
 QProgressBar {
-  background-color: #D35400;
+	text-align: center;
 }
 
 QProgressBar::chunk {
+	background-color: #D35400;
 }

@@ -122,7 +122,7 @@ QDialogButtonBox {
 QScrollBar:vertical {
      background: #353945;
      width: 20px;
-     margin: 50px 0 50px 0;
+     margin: 38px 0 20px 0;
 }
 
 QScrollBar::handle:vertical {

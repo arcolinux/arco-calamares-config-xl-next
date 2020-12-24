@@ -120,10 +120,9 @@ QDialogButtonBox {
 /* ########## SCROLL BAR ########## */
 
 QScrollBar:vertical {
-     border: 1px solid #353945;
      background: #353945;
      width: 20px;
-     margin: 50px 0 24px 0;
+     margin: 50px 0 50px 0;
 }
 
 QScrollBar::handle:vertical {
@@ -147,27 +146,7 @@ QScrollBar::add-line:vertical {
      subcontrol-origin: margin;
 }
 
-QScrollBar::up-arrow:vertical {
-     border: none;
-     width: 12px;
-     height: 8px;
-     background: none;
-     image: url(/usr/share/calamares/branding/endeavouros/img/up-arrow.png);
-}
-
-QScrollBar::down-arrow:vertical {
-     border: none;
-     width: 12px;
-     height: 8px;
-     background: none;
-     image: url(/usr/share/calamares/branding/endeavouros/img/branch_open.png);
-}
-
- QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
-     background: none;
-}
-
-/* ########## LIST VIEW ########## */
+/* ########## QLIST VIEW ########## */
 
 QListView {
 		font: 16px;
@@ -210,80 +189,7 @@ QListView#listVariant::item:!alternate:selected:active {
 
 
 
-
-/* ########## SCROLL BAR ########## */
-
-QScrollBar:vertical {
-     border: 1px solid #353945;
-     background: #353945;
-     width: 20px;
-     margin: 50px 0 24px 0;
-}
-
-QScrollBar::handle:vertical {
-     background: #D35400;
-     max-height: 25px;
-}
-
-QScrollBar::sub-line:vertical {
-     border: none;
-     background: none;
-     height: 20px;
-     subcontrol-position: top;
-     subcontrol-origin: margin;
-}
-
-QScrollBar::add-line:vertical {
-     border: none;
-     background: none;
-     height: 20px;
-     subcontrol-position: bottom;
-     subcontrol-origin: margin;
-}
-
-QScrollBar::up-arrow:vertical {
-     border: none;
-     width: 12px;
-     height: 8px;
-     background: none;
-     image: url(/usr/share/calamares/branding/endeavouros/img/up-arrow.png);
-}
-
-QScrollBar::down-arrow:vertical {
-     border: none;
-     width: 12px;
-     height: 8px;
-     background: none;
-     image: url(/usr/share/calamares/branding/endeavouros/img/branch_open.png);
-}
-
- QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
-     background: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ########## LINE EDIT ########## */
+/* ########## QLINE EDIT ########## */
 
 QLineEdit#LE_TestKeyboard {
 	font: 16px;
@@ -437,17 +343,16 @@ QTreeView {
 	font: 16px;
 	show-decoration-selected: 0;
 }
+
 QTreeView::item {
 	padding: 2px;
 }
-QTreeView::item:default {
-	background: #00FF00;
-	font: bold;
-}
+
 QTreeView::item:selected {
 	background: #D35400;
 	font: bold;
 }
+
 QTreeView::branch:has-siblings:!adjoins-item {
 }
 QTreeView::branch:has-siblings:adjoins-item {
@@ -477,9 +382,6 @@ QItemSelectionModel::Select {
 QHeaderView::section {
   font : 16px;
 }
-
-
-
 
 /* ########## PROGRESS BAR ########## */
 

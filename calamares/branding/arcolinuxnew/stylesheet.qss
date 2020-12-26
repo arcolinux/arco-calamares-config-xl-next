@@ -390,5 +390,5 @@ QProgressBar {
 }
 
 QProgressBar::chunk {
-	background-color: #D35400;
+	background-color: #DB2929;
 }

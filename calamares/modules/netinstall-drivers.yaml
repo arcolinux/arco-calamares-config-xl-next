@@ -40,13 +40,6 @@
   selected: false
   packages:
     - xf86-video-openchrome
-- name: "Xf86-video-vmware"
-  description: "Installs xf86-video-vmware"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - xf86-video-vmware
 - name: "Nvidia for linux kernel"
   description: "Installs nvidia for linux kernel"
   critical: false

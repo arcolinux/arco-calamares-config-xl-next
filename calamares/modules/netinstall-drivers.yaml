@@ -56,7 +56,7 @@
   description: "Installs nvidia for linux kernel"
   critical: false
   hidden: false
-  selected: false
+  selected: true
   immutable: true
   expanded: false
   packages:

@@ -4,6 +4,7 @@
   hidden: false
   selected: true
   immutable: true
+  expanded: false
   packages:
     - xf86-video-intel
 - name: "Xf86-video-nouveau"
@@ -12,6 +13,7 @@
   hidden: false
   selected: true
   immutable: true
+  expanded: false
   packages:
     - xf86-video-nouveau
 - name: "Xf86-video-amdgpu"
@@ -20,6 +22,7 @@
   hidden: false
   selected: true
   immutable: true
+  expanded: false
   packages:
     - xf86-video-amdgpu
 - name: "Xf86-video-ati"
@@ -28,6 +31,7 @@
   hidden: false
   selected: true
   immutable: true
+  expanded: false
   packages:
     - xf86-video-ati
 - name: "Xf86-video-vesa"
@@ -36,6 +40,7 @@
   hidden: false
   selected: true
   immutable: true
+  expanded: false
   packages:
     - xf86-video-vesa
 - name: "Xf86-video-openchrome"
@@ -44,6 +49,7 @@
   hidden: false
   selected: true
   immutable: true
+  expanded: false
   packages:
     - xf86-video-openchrome
 - name: "Nvidia for linux kernel"
@@ -52,6 +58,7 @@
   hidden: false
   selected: false
   immutable: true
+  expanded: false
   packages:
     - nvidia
     - nvidia-settings

@@ -2,9 +2,7 @@
   description: "Installs the latest linux kernel (not the one from the iso)"
   critical: false
   hidden: false
-  selected: true
-  immutable: true
-  expanded: false
+  selected: false
   packages:
     - linux
     - linux-headers

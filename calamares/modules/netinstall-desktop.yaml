@@ -17,10 +17,9 @@
   hidden: false
   selected: false
   packages:
-    - arcolinux-awesome-dconf-git
     - arcolinux-awesome-git
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-awesome-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
@@ -52,10 +51,9 @@
   hidden: false
   selected: false
   packages:
-    - arcolinux-bspwm-dconf-git
     - arcolinux-bspwm-git
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-bspwm-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
@@ -114,7 +112,6 @@
     - arcolinux-cinnamon-dconf-git
     - arcolinux-cinnamon-git
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-cinnamon-git
     - arcolinux-gtk3-surfn-arc-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
@@ -136,9 +133,8 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-cwm-git
-    - arcolinux-cwm-dconf-git
     - arcolinux-cwm-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
@@ -168,7 +164,6 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-deepin-git
     - arcolinux-deepin-dconf-git
     - arcolinux-deepin-git
     - arcolinux-gtk3-sardi-arc-git
@@ -184,8 +179,7 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-dwm-git
-    - arcolinux-dwm-dconf-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-dwm-git
     - arcolinux-dwm-slstatus-git
     - arcolinux-gtk3-sardi-arc-git
@@ -223,7 +217,6 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-gnome-git
     - arcolinux-gnome-dconf-git
     - arcolinux-gnome-git
     - arcolinux-gtk3-sardi-arc-git
@@ -243,9 +236,8 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-herbstluftwm-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
-    - arcolinux-herbstluftwm-dconf-git
     - arcolinux-herbstluftwm-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
@@ -280,9 +272,8 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-i3wm-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
-    - arcolinux-i3wm-dconf-git
     - arcolinux-i3wm-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
@@ -318,9 +309,8 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-icewm-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-surfn-arc-git
-    - arcolinux-icewm-dconf-git
     - arcolinux-icewm-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
@@ -356,9 +346,8 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-jwm-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-surfn-arc-git
-    - arcolinux-jwm-dconf-git
     - arcolinux-jwm-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
@@ -393,11 +382,10 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-lxqt-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
-    - arcolinux-lxqt-dconf-git
     - arcolinux-lxqt-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
@@ -424,7 +412,6 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-mate-git
     - arcolinux-gtk3-surfn-arc-git
     - arcolinux-mate-dconf-git
     - arcolinux-mate-git
@@ -446,7 +433,7 @@
   packages:
     - arcolinux-common-git
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-openbox-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-docs-git
     - arcolinux-geany-git
     - arcolinux-gtk3-sardi-arc-git
@@ -454,7 +441,6 @@
     - arcolinux-logout-git
     - arcolinux-nitrogen-git
     - arcolinux-obmenu-generator-git
-    - arcolinux-openbox-dconf-git
     - arcolinux-openbox-git
     - arcolinux-openbox-themes-git
     - arcolinux-pipemenus-git
@@ -552,11 +538,10 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-qtile-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
-    - arcolinux-qtile-dconf-git
     - arcolinux-qtile-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
@@ -586,7 +571,7 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-spectrwm-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
@@ -594,7 +579,6 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-spectrwm-dconf-git
     - arcolinux-spectrwm-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
@@ -625,7 +609,6 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-ukui-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
     - arcolinux-qt5-git
@@ -657,7 +640,7 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-config-xmonad-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
@@ -669,7 +652,6 @@
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
-    - arcolinux-xmonad-dconf-git
     - arcolinux-xmonad-polybar-git
     - awesome-terminal-fonts
     - dmenu

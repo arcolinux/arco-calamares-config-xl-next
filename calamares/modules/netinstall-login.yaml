@@ -13,7 +13,7 @@
     - arcolinux-sddm-sugar-candy-git
     - arcolinux-sddm-urbanlifestyle-git
 - name: "Login Manager: Lightdm"
-  description: "Installs lightdm - user enables lightdm manually"
+  description: "Installs lightdm"
   critical: false
   hidden: false
   selected: false
@@ -23,7 +23,7 @@
     - lightdm-gtk-greeter-settings
     - arcolinux-wallpapers-git
 - name: "Login Manager: Gdm"
-  description: "Installs gdm - user enables gdm manually"
+  description: "Installs gdm"
   critical: false
   hidden: false
   selected: false
@@ -31,7 +31,7 @@
     - gdm
     - arcolinux-wallpapers-git
 - name: "Login Manager: Lxdm"
-  description: "Installs lxdm - user enables lxdm manually"
+  description: "Installs lxdm"
   critical: false
   hidden: false
   selected: false

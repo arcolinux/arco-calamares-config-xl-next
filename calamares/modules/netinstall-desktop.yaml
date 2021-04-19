@@ -22,8 +22,7 @@
     - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
@@ -57,8 +56,7 @@
     - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-polybar-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
@@ -139,8 +137,7 @@
     - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-polybar-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
@@ -187,8 +184,7 @@
     - arcolinux-dwm-slstatus-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
@@ -319,8 +315,7 @@
     - arcolinux-gtk3-surfn-arc-git
     - arcolinux-icewm-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
@@ -357,8 +352,7 @@
     - arcolinux-gtk3-surfn-arc-git
     - arcolinux-jwm-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
@@ -393,8 +387,7 @@
     - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-lxqt-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
@@ -447,8 +440,7 @@
     - arcolinux-geany-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-nitrogen-git
     - arcolinux-obmenu-generator-git
     - arcolinux-openbox-git
@@ -551,8 +543,7 @@
     - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-qtile-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
@@ -585,8 +576,7 @@
     - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-polybar-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
@@ -655,8 +645,7 @@
     - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-logout-themes-git
+    - arcolinux-meta-logout
     - arcolinux-polybar-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git

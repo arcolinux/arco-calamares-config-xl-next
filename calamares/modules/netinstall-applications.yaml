@@ -11,6 +11,7 @@
     - mediainfo
     - mcomix
     - pdfarranger
+    - screenkey-git
 - name: "Fonts"
   description: "Fonts"
   critical: false

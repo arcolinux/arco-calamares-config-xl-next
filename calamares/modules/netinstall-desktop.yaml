@@ -1,4 +1,4 @@
-- name: "Desktop: Xfce"
+- name: "Desktop: Xfce4"
   description: "Xfce4 - installed by default"
   critical: false
   hidden: false

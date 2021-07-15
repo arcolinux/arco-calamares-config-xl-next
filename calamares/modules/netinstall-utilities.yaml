@@ -40,6 +40,7 @@
     - open-vm-tools
     - optimus-manager
     - octopi
+    - parcellite
     - pfetch
     - powertop
     - putty
@@ -61,5 +62,6 @@
     - ufetch-git
     - vnstat
     - wireshark-qt
+    - workrave
     - xlunch-git
     - yin-yang-git

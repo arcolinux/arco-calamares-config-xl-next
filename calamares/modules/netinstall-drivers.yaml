@@ -1,5 +1,5 @@
-- name: "Linux and Nvidia-dkms are installed by default"
-  description: "Select NVIDIA in BIOS or UEFI and you will be using Nvidia-dkms"
+- name: "Nvidia-dkms for linux kernel - installed by default"
+  description: "Installs nvidia-dkms for linux kernel"
   critical: false
   hidden: false
   selected: false

@@ -103,6 +103,7 @@
     - disper
     - nvidia
     - nvidia-lts
+    - nvidia-prime
     - nvidia-xrun
     - optimus-manager
     - optimus-manager-qt

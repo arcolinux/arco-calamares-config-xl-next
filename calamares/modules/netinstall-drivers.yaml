@@ -1,5 +1,5 @@
-- name: "Nvidia is installed by default"
-  description: "Select NVIDIA in BIOS or UEFI - installs the latest Nvidia"
+- name: "Nvidia-dkms is installed by default"
+  description: "Select NVIDIA in BIOS or UEFI and you will be using Nvidia-dkms"
   critical: false
   hidden: false
   selected: false
@@ -11,8 +11,8 @@
     - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-lts for linux-lts kernel"
-  description: "Installs nvidia-lts for linux-lts kernel"
+- name: "Nvidia-dkms for linux-lts kernel"
+  description: "Installs nvidia-dkms for linux-lts kernel"
   critical: false
   hidden: false
   selected: false
@@ -22,6 +22,28 @@
     - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
+- name: "Nvidia-dkms for linux-zen kernel"
+  description: "Installs nvidia-dkms for linux-zen kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
+    - linux-zen-headers
+    - nvidia-dkms
+    - nvidia-settings
+    - nvidia-utils
+- name: "Nvidia-dkms for linux-hardened kernel"
+  description: "Installs nvidia-dkms for linux-zen kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-hardened
+    - linux-hardened-headers
+    - nvidia-dkms
+    - nvidia-settings
+    - nvidia-utils       
 - name: "Xf86-video-intel"
   description: "Installs xf86-video-intel"
   critical: false

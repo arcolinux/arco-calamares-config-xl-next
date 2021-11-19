@@ -8,7 +8,7 @@
   packages:
     - linux
     - linux-headers
-    - nvidia
+    - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
 - name: "Nvidia-lts for linux-lts kernel"
@@ -19,7 +19,7 @@
   packages:
     - linux-lts
     - linux-lts-headers
-    - nvidia-lts
+    - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
 - name: "Xf86-video-intel"
@@ -79,7 +79,8 @@
   packages:
     - bumblebee
     - disper
-    - nvidia-dkms
+    - nvidia
+    - nvidia-lts
     - nvidia-xrun
     - optimus-manager
     - optimus-manager-qt

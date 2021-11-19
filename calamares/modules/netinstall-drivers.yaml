@@ -1,4 +1,4 @@
-- name: "Nvidia-dkms is installed by default"
+- name: "Linux and Nvidia-dkms are installed by default"
   description: "Select NVIDIA in BIOS or UEFI and you will be using Nvidia-dkms"
   critical: false
   hidden: false
@@ -34,7 +34,7 @@
     - nvidia-settings
     - nvidia-utils
 - name: "Nvidia-dkms for linux-hardened kernel"
-  description: "Installs nvidia-dkms for linux-zen kernel"
+  description: "Installs nvidia-dkms for linux-hardened kernel"
   critical: false
   hidden: false
   selected: false

@@ -16,6 +16,8 @@
   critical: false
   hidden: false
   selected: false
+  immutable: false
+  expanded: false  
   packages:
     - linux-lts
     - linux-lts-headers

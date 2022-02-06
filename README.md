@@ -1,3 +1,2 @@
 # ArcoLinux Calamares configuration
 
-

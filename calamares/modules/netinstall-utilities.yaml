@@ -16,12 +16,10 @@
   expanded: true
   packages:
     - btrfs-assistant
+    - grub-btrfs
     - snap-pac
-    - snap-pac-grub
-    - snap-sync
     - snapper
     - snapper-gui-git
-    - snapper-rollback
     - snapper-support
 - name: "Utilities for Android"
   description: "Utility software android"

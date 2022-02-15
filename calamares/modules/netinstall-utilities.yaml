@@ -35,6 +35,7 @@
     - droidcam
     - qtscrcpy
     - scrcpy
+    - waydroid
 - name: "Utilities for IOS"
   description: "Utility software ios"
   critical: false

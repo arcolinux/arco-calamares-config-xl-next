@@ -96,6 +96,7 @@
   packages:
     - acpilight
     - brightnessctl
+    - gummy
     - light
 - name: "Utilities for hardware discovery"
   description: "Utility software for hardware discovery"
@@ -160,6 +161,8 @@
     - tuxboot
     - tuxboot-git
     - vnstat
+    - wacom-utility
+    - wacom-settings-git
     - wireshark-qt
     - workrave
     - yin-yang-git

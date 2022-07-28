@@ -6,6 +6,7 @@
   expanded: true
   packages:
     - adapta-gtk-theme
+	- arc-darkest-theme-git
     - arcolinux-arc-kde
     - arcolinux-arc-themes-2021-git
     - arcolinux-arc-themes-2021-sky-git
@@ -24,6 +25,7 @@
     - layan-kde-git
     - materia-gtk-theme
     - materia-kde
+    - numix-gtk-theme-git
     - openbox-themes-pambudi-git
     - orchis-kde-theme-git
     - orchis-theme-git
@@ -39,7 +41,7 @@
   packages:
     - arc-icon-theme
     - arcolinux-candy-beauty-git
-    - breeze
+    - breeze-icons
     - dracula-icons-git
     - faba-icon-theme-git
     - faba-mono-icons-git

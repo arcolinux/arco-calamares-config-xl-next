@@ -4,7 +4,7 @@
   hidden: false
   selected: false
   immutable: false
-  expanded: false
+  expanded: true
   packages:
     - archlinux-logout-git
     - arcolinux-hyprland-git
@@ -23,7 +23,7 @@
   hidden: false
   selected: false
   immutable: false
-  expanded: false
+  expanded: true
   packages:
     - archlinux-logout-git
     - arcolinux-kitty-git
@@ -45,7 +45,7 @@
   hidden: false
   selected: false
   immutable: false
-  expanded: false
+  expanded: true
   packages:
     - a-candy-beauty-icon-theme-git
     - archlinux-logout-git
